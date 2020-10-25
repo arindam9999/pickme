@@ -31,12 +31,16 @@ $(document).ready(function () {
     });
 });
 var c= 0;
-$("button").click(function() {
+$(".show1").text(c);
+$(".vote1").click(function() {
+    if(c==9) swal("Congrats","Voting done for today..","success");
   //  alert(c);
   //  $(".total1").text(c + "");
   // if(c<10) c++;
   // else  swal("Congrats","Voting done for today..","success");
-  var fired_button = $(this).val();
-    alert(fired_button);
-
+   var fired_button = $(this).val();
+   var ch = $(this).text();
+   if(c<10&&ch==="VOTE") {c++;$(this).text("UNVOTE"); $(".show1").text(c);}
+   else if(ch==="UNVOTE") {c--;$(this).text("VOTE");$(".show1").text(c);}
+   
 });
