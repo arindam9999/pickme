@@ -15,9 +15,23 @@ ul li {
     list-style: none;
 }
 .show1{
-    margin-left: 60px;
+    margin-left: 10px;
     color: #FFA500;
     font-size: 22px;
+}
+.show-cart li {
+  display: flex;
+}
+.card {
+  margin-bottom: 20px;
+}
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+}
+.card-block{
+    text-align: center;
 }
 /*.bgm{
 
@@ -891,7 +905,7 @@ h2.title {
 }
 
 .productinfo img {
-    width: 100%;
+    width: 50%;
 }
 
 .productinfo {
@@ -2335,12 +2349,12 @@ textarea {
     border: 1px solid#F7F7F0
 }
 
-.btn.btn-primary {
+/*.btn.btn-primary {
     background: #FE980F;
     border: 0 none;
     border-radius: 0;
     margin-top: 16px;
-}
+}*/
 
 .blank-arrow {
     position: relative;
