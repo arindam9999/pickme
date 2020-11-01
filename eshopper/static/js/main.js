@@ -32,6 +32,24 @@ $(document).ready(function() {
 });
 var c = 0;
 var voteitems = [];
+let xhr = new XMLHttpRequest(); 
+            let url = "submit.js"; 
+        
+            // open a connection 
+            xhr.open("POST", url, true); 
+  
+            // Set the request header i.e. which type of content you are sending 
+            xhr.setRequestHeader("Content-Type", "application/json"); 
+  
+            // Create a state change callback 
+            xhr.onreadystatechange = function () { 
+                if (xhr.readyState === 4 && xhr.status === 200) { 
+  
+                    // Print received data from server 
+                    result.innerHTML = this.responseText; 
+  
+                } 
+            }; 
 $(".show1").text(c);
 $(".vote1").click(function() {
     if (c == 4) swal("Congrats", "Voting done for today..", "success");
@@ -39,12 +57,17 @@ $(".vote1").click(function() {
     //  $(".total1").text(c + "");
     // if(c<10) c++;
     // else  swal("Congrats","Voting done for today..","success");
-    var fired_button = $(this).val();
+    var value = $(this).data("id");
+    var url = $(this).data("url");
+    var price = $(this).data("price");
+    var name = $(this).data("name");
     var ch = $(this).text();
     if (c < 5 && ch === "VOTE") { c++;
         $(this).text("UNVOTE");
         $(".show1").text(c); 
-        voteitems.push(fired_button);
+         var data = JSON.stringify({ "name": name, "url": url, "price": price, "value" : value }); 
+         xhr.send(data);
+
     } 
 
         else if (ch === "UNVOTE") { c--;
