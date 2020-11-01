@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "pickme-hackerramp",
+  "private_key_id": "0f5e80140e306541d6818ca3f53111faf7d3d430",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCcmrzHeTVehg/J\nqXR/JW4o4pq4LKeZtM2DB76B8KDLh+FAkVkds6vfKcFm23OmzLCOdp1uOCueNy1B\n1eY0nL2hfD9F+Gq8hC/3Q5h6FRKcci3gBwo0o3hJLU9cOBxFUxBExHpLvcj+5SVc\n5JzLXMAy+eG6edG6gsNM8nKMi9lFYKDEfwTgl9iGEjQdW6vmtWbSaF/mc8RBc99S\nL+oL0t58hCCwfXacKsd1m55MJQB08QfrVtUwajAANRYE014tpOiGzCDaRS5LyUzT\n8H1CbGx3OidbTJ6dV7DhTgjZJ477h0VQiKgcGBs+6lKrpFaJNNch1UkltsD4xr+P\nUMoHSC31AgMBAAECggEACGsdCNAQOWOVh66vT4JwmIwN6yajX9TjU07gQ9XunuJQ\nDouBseINtDJnbiMP5YCNYSspLVqhpaCrsyVPebaPTxYBxL4k5rtoZK9ii/WECZrt\nsmROfSPofG6OHJP7mRJtBnVVaarrGiCxUHwNnbT/s/3Qz5hq2M7cts81ry55YIxK\nsR60UcMrWJU3u/WkrAnp0OUqktoNEBw1jIMUFBAWLhKvWxKes9dcg5pUAvuGJkAN\neFzYTIvsxZXNXHAO/VXVCLtfEbIjwyzOX1n2NpGtXUyYeutie0vRwuFmE4ehYpXW\nUm/t8jHVLgrym3l8uUMnn2gqC3T93lIgRQrnEqHZAQKBgQDJbecRHHkYFUsvhgEK\n1HhOGyVYZ1kfu1Ijwy0j51jyENN43lGYJtsJHr41qJz+YkUyBh91b5jIdIe2xiSl\nItbTk5ZUhXpOsAibypoV01mtfBZy8bmurIPVnw7RyBnMVIMQpurOcnQWcpp4lhuw\nARNTqa6ATbIssb/jTDjh1vt/wQKBgQDHCAN3CdflJ4/8uwFZqhESaGvVSI9G2LuE\nbQfRUptU+XhPCqJUbumM21hi8sUux012rHEYS3J6+5zhhDFYE/lKdqHdsX+PEoTr\nvRZYR+ohhFWkUOCo+EpL/Apj+p8Y4/dsYH8689kcIfmfoWhfaRyUpnRuVJBKf9n7\npClpNBV7NQKBgEtDrZtPMFA3ZKiVQb5yNaG5svKda0fYDpEeVLedsjaA4wO+zm4z\n1pRJ0HjsT/0daw2ODCMtV8FPCYbZ8sdhhTP5aaqbVWAhlpXf1kNhfZi9TQYWHHOQ\nMpKXpEnuovUefvqx4/rP+WCJ4f482IujWz1fobx/S5w3rqOXz4lTcxYBAoGAb5ni\nt4DhejDw3/nMDAb8g6HhtTp2fHdSzjKEy67SQpeQCmIgG9AFTWJA8VrHji9bFEwl\nLkY/7w3fLeT99jFc+5ABu1mn+QWdWsIwIVhRxHF7xCNFlfmDT5AIE3+YblCFkFOb\ng+bvuoKiggvzhmxeBkw/xQ3Nyrhd9mhagA8gbHECgYB1c3a3d1WytatHgqMWSGaO\nLIyYJGy9isIUH6J/3VCXhU93OA7MliPhEfHeoxwZMie/FlV25JXFGSPTTaOUJE/e\nN1O8RyDGP9ACNrzXivNxvOkEdVI9IfpUgrC4MffBE6MBcJ7l2qlJp4wQu9+/xMv0\ngEiY1EunkAlJOyhFMm4VpQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-oseum@pickme-hackerramp.iam.gserviceaccount.com",
+  "client_id": "114793775065190291938",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-oseum%40pickme-hackerramp.iam.gserviceaccount.com"
+}
